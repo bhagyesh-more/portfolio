@@ -30,8 +30,8 @@ export const portfolioData = {
         achievements: [
             {
                 title: "Hackathon Winner",
-                event: "",
-                detail: ""
+                event: "Global Tech Summit 2024",
+                detail: "1st Place"
             }
         ],
         skills: [

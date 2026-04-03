@@ -338,3 +338,87 @@ body {
     font-size: 0.95rem;
   }
 }
+
+/* ========================= */
+/* ✅ MOBILE OPTIMIZATION */
+/* ========================= */
+
+/* Better container padding on small screens */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .page-content {
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+}
+
+/* Navbar responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 20px;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+}
+
+/* Grid adjustments for mobile */
+@media (max-width: 768px) {
+  .grid-cols-2,
+  .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Glass card padding for smaller screens */
+@media (max-width: 768px) {
+  .glass-card {
+    padding: 20px;
+    border-radius: 16px;
+  }
+}
+
+/* Buttons touch-friendly */
+.btn {
+  min-height: 44px;
+}
+
+/* Reduce blob sizes for mobile (performance boost) */
+@media (max-width: 768px) {
+  .blob-1 {
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .blob-2 {
+    width: 80vw;
+    height: 80vw;
+  }
+}
+
+/* Prevent overflow issues */
+body {
+  overflow-x: hidden;
+}
+
+/* Improve text readability on small screens */
+@media (max-width: 480px) {
+  .heading-xl {
+    line-height: 1.2;
+  }
+
+  .text-lg {
+    font-size: 1.1rem;
+  }
+
+  .text-base {
+    font-size: 0.95rem;
+  }
+}
