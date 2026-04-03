@@ -30,15 +30,17 @@ export const portfolioData = {
         achievements: [
             {
                 title: "Hackathon Winner",
-                event: "Global Tech Summit 2024",
-                detail: "1st Place"
+                event: "",
+                detail: ""
             }
         ],
         skills: [
-            { category: 'Languages', items: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C++'] },
-            { category: 'Frontend', items: ['React', 'Vue', 'Next.js', 'Tailwind', 'Framer Motion'] },
-            { category: 'Backend', items: ['Node.js', 'Express', 'Django', 'MongoDB', 'PostgreSQL'] },
-            { category: 'Tools', items: ['Git', 'Docker', 'AWS', 'Linux', 'Figma'] },
+            { category: 'Data/AI', items: ['Data Analysis (Python)', 'Machine Learning (Basics)'] },
+            { category: 'Languages', items: ['Python (Basics)', 'C (Basics)'] },
+            { category: 'Frontend', items: ['HTML', 'CSS'] },
+            { category: 'Backend', items: [] },
+            { category: 'Tools', items: ['Tableau', 'VS Code', 'GitHub'] },
+            { category: 'Currently Learning', items: ['Data Structure & Algorithms', 'Backend Development']}
         ]
     },
 
