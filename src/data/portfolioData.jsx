@@ -1,4 +1,4 @@
-import { Terminal, Code, Cpu, Layout, Code2, Database, Github, Linkedin, Twitter, Instagram } from 'lucide-react';
+import { Terminal, Code, Cpu, Layout, BrainCircuit, Github, Linkedin, Instagram } from 'lucide-react';
 
 export const portfolioData = {
     // --- HOME PAGE DATA ---
@@ -119,6 +119,4 @@ export const portfolioData = {
             { name: "Instagram", icon: <Instagram size={24} />, url: "https://www.instagram.com/bhagyesh.more28/" }
         ]
     }
-
-
 };
