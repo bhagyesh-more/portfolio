@@ -79,7 +79,7 @@ export const portfolioData = {
                 ],
                 icon: <BrainCircuit size={32} className="text-gradient" />,
                 github: 'https://github.com/bhagyesh-more/CogniCare',
-                demo: 'https://drive.google.com/drive/folders/1Ktm3V3-bCFdFMUiYWccpZ6tvphKrboLH?usp=sharing',
+                demo: 'https://cogni-care.streamlit.app',
                 color: 'var(--accent-2)'
 
             },
